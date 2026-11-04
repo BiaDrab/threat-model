@@ -21,8 +21,8 @@
         "cells": [
           {
             "position": {
-              "x": 60,
-              "y": 60
+              "x": 550,
+              "y": 70
             },
             "size": {
               "width": 140,
@@ -138,8 +138,8 @@
           },
           {
             "position": {
-              "x": 74,
-              "y": 178
+              "x": 254,
+              "y": 385.0000000000001
             },
             "size": {
               "width": 112.5,
@@ -255,8 +255,8 @@
           },
           {
             "position": {
-              "x": 74,
-              "y": 260
+              "x": 854,
+              "y": 385.0000000000001
             },
             "size": {
               "width": 112.5,
@@ -367,6 +367,605 @@
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 550,
+              "y": 210
+            },
+            "size": {
+              "width": 140,
+              "height": 80
+            },
+            "attrs": {
+              "text": {
+                "text": "Webový \nprehliadač"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "5489ecdc-37cd-40f2-adfc-b8272bf4c26c"
+                },
+                {
+                  "group": "right",
+                  "id": "08ecdfdc-873e-4507-b02a-5a8be0b40d15"
+                },
+                {
+                  "group": "bottom",
+                  "id": "8d61c1d6-51e1-4a56-b179-5c490c83b1a2"
+                },
+                {
+                  "group": "left",
+                  "id": "35f06af0-6c23-4e3a-9cc7-9875e46d1044"
+                }
+              ]
+            },
+            "id": "a88d57e8-a66d-4444-b962-ed72010d491b",
+            "zIndex": 4,
+            "data": {
+              "type": "tm.Process",
+              "name": "Webový \nprehliadač",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 565,
+              "y": 370.0000000000001
+            },
+            "size": {
+              "width": 110,
+              "height": 90
+            },
+            "attrs": {
+              "text": {
+                "text": "Aplikácia"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "5489ecdc-37cd-40f2-adfc-b8272bf4c26c"
+                },
+                {
+                  "group": "right",
+                  "id": "08ecdfdc-873e-4507-b02a-5a8be0b40d15"
+                },
+                {
+                  "group": "bottom",
+                  "id": "8d61c1d6-51e1-4a56-b179-5c490c83b1a2"
+                },
+                {
+                  "group": "left",
+                  "id": "35f06af0-6c23-4e3a-9cc7-9875e46d1044"
+                }
+              ]
+            },
+            "id": "81d89c21-6abe-4db5-b7da-50873f2b3716",
+            "zIndex": 5,
+            "data": {
+              "type": "tm.Process",
+              "name": "Aplikácia",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "HTTPS požiadavky",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "HTTPS požiadavky"
+            ],
+            "id": "9533105c-3890-4734-a3dc-dc9455f944d4",
+            "source": {
+              "cell": "0851d6a0-80c0-4182-95b4-074aba76d1ad",
+              "port": "e9d26b9b-c663-47ad-b644-ec1bbd830ad5"
+            },
+            "target": {
+              "cell": "a88d57e8-a66d-4444-b962-ed72010d491b",
+              "port": "5489ecdc-37cd-40f2-adfc-b8272bf4c26c"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Načítanie stránky",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Načítanie stránky"
+            ],
+            "id": "d9b206b0-66e6-4bd9-a039-fddce2e24e88",
+            "source": {
+              "cell": "a88d57e8-a66d-4444-b962-ed72010d491b",
+              "port": "8d61c1d6-51e1-4a56-b179-5c490c83b1a2"
+            },
+            "target": {
+              "cell": "81d89c21-6abe-4db5-b7da-50873f2b3716",
+              "port": "5489ecdc-37cd-40f2-adfc-b8272bf4c26c"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": " Prehrávanie videa",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              " Prehrávanie videa"
+            ],
+            "id": "21982994-3449-4ee0-ba6a-5cf29a1dd914",
+            "source": {
+              "cell": "81d89c21-6abe-4db5-b7da-50873f2b3716",
+              "port": "35f06af0-6c23-4e3a-9cc7-9875e46d1044"
+            },
+            "target": {
+              "cell": "f9b7c525-2507-441b-8c97-d6a0a1bc5cbc",
+              "port": "dbdc5e05-ab87-4e88-9939-27f988b3dd0c"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": " Odoslanie metrík",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              " Odoslanie metrík"
+            ],
+            "id": "6d3d4516-fc7c-4ed5-b9be-745b1fdca4be",
+            "source": {
+              "cell": "81d89c21-6abe-4db5-b7da-50873f2b3716",
+              "port": "08ecdfdc-873e-4507-b02a-5a8be0b40d15"
+            },
+            "target": {
+              "cell": "7d85f136-4e34-449b-9f21-7c904a99f900",
+              "port": "4e416b22-a51b-43bb-a7b6-eac0f6e717f6"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Build / Deployment",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Build / Deployment"
+            ],
+            "id": "c9b07116-c607-4e4a-a260-457c6f803e53",
+            "source": {
+              "cell": "81d89c21-6abe-4db5-b7da-50873f2b3716",
+              "port": "8d61c1d6-51e1-4a56-b179-5c490c83b1a2"
+            },
+            "target": {
+              "cell": "f81f6ec9-c95a-4590-a4ec-f6a974291572",
+              "port": "d5beee01-adfe-4968-9d53-597449607bb8"
+            },
+            "vertices": []
+          },
+          {
+            "position": {
+              "x": 535,
+              "y": 530
+            },
+            "size": {
+              "width": 170,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Git repozitár / Zdrojový kód"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "d5beee01-adfe-4968-9d53-597449607bb8"
+                },
+                {
+                  "group": "right",
+                  "id": "805d85cd-600d-4725-98c1-f7ec0b7155e0"
+                },
+                {
+                  "group": "bottom",
+                  "id": "28f22ea1-40a0-4785-a1fe-60fbf5662235"
+                },
+                {
+                  "group": "left",
+                  "id": "3646e770-6b80-4b2b-bd31-624906f8456b"
+                }
+              ]
+            },
+            "id": "f81f6ec9-c95a-4590-a4ec-f6a974291572",
+            "zIndex": 11,
+            "data": {
+              "type": "tm.Store",
+              "name": "Git repozitár / Zdrojový kód",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
               "threats": []
             }
           }
