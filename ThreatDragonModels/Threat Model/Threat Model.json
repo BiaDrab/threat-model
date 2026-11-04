@@ -21,16 +21,16 @@
         "cells": [
           {
             "position": {
-              "x": 500,
-              "y": 40
+              "x": 535,
+              "y": 340.00000000000017
             },
             "size": {
-              "width": 240,
-              "height": 250
+              "width": 170,
+              "height": 140
             },
             "attrs": {
               "label": {
-                "text": "Trust Boundary"
+                "text": "Trust Boundary 2"
               }
             },
             "visible": true,
@@ -39,7 +39,44 @@
             "zIndex": -1,
             "data": {
               "type": "tm.BoundaryBox",
-              "name": "Trust Boundary",
+              "name": "Trust Boundary 2",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "d9b206b0-66e6-4bd9-a039-fddce2e24e88",
+                "21982994-3449-4ee0-ba6a-5cf29a1dd914",
+                "994b4ab9-115c-4d98-9d5e-924dbd25e346",
+                "08aafec6-216c-4c87-bde0-d858f4bcde42",
+                "f2c5afe6-7ce7-4db4-b741-3bc1f6fe84f0",
+                "fd1231f1-64b4-42af-a7a2-f208313b6150"
+              ],
+              "containedElements": [
+                "81d89c21-6abe-4db5-b7da-50873f2b3716"
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": 509.9999999999998,
+              "y": 10.00000000000125
+            },
+            "size": {
+              "width": 220,
+              "height": 260
+            },
+            "attrs": {
+              "label": {
+                "text": "Trust Boundary 1"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "6ed924b0-b31a-4756-814b-b5491ec5817f",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Trust Boundary 1",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
@@ -54,8 +91,78 @@
           },
           {
             "position": {
+              "x": 226.49999999999727,
+              "y": 280.000000000001
+            },
+            "size": {
+              "width": 180,
+              "height": 380
+            },
+            "attrs": {
+              "label": {
+                "text": "Trust Boundary 3"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "e06f7cdf-bcb5-420a-abfb-3470defe7805",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Trust Boundary 3",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "21982994-3449-4ee0-ba6a-5cf29a1dd914",
+                "08aafec6-216c-4c87-bde0-d858f4bcde42",
+                "f2c5afe6-7ce7-4db4-b741-3bc1f6fe84f0",
+                "fd1231f1-64b4-42af-a7a2-f208313b6150"
+              ],
+              "containedElements": [
+                "f9b7c525-2507-441b-8c97-d6a0a1bc5cbc",
+                "7d85f136-4e34-449b-9f21-7c904a99f900",
+                "9538970d-5781-42b2-8a1d-4dde8fa4792d",
+                "8c242384-94a2-4fd1-ac4c-4f9c18242ff7"
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": 500,
+              "y": 550
+            },
+            "size": {
+              "width": 240,
+              "height": 120
+            },
+            "attrs": {
+              "label": {
+                "text": "Trust Boundary 4"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "90bde1b6-242b-4498-be21-012d0ef4dca8",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Trust Boundary 4",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "994b4ab9-115c-4d98-9d5e-924dbd25e346"
+              ],
+              "containedElements": [
+                "f81f6ec9-c95a-4590-a4ec-f6a974291572"
+              ]
+            }
+          },
+          {
+            "position": {
               "x": 254,
-              "y": 385.0000000000001
+              "y": 400.0000000000001
             },
             "size": {
               "width": 112.5,
@@ -171,8 +278,8 @@
           },
           {
             "position": {
-              "x": 854,
-              "y": 385.0000000000001
+              "x": 254,
+              "y": 560.0000000000002
             },
             "size": {
               "width": 112.5,
@@ -289,7 +396,7 @@
           {
             "position": {
               "x": 550,
-              "y": 210
+              "y": 190
             },
             "size": {
               "width": 140,
@@ -561,7 +668,8 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
-                "fca32547-4f78-41c9-8a6e-de2fe80bae9b"
+                "fca32547-4f78-41c9-8a6e-de2fe80bae9b",
+                "6ed924b0-b31a-4756-814b-b5491ec5817f"
               ]
             },
             "labels": [
@@ -598,7 +706,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": " Prehrávanie videa",
+              "name": " Načítanie videa",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -609,10 +717,13 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "fca32547-4f78-41c9-8a6e-de2fe80bae9b",
+                "e06f7cdf-bcb5-420a-abfb-3470defe7805"
+              ]
             },
             "labels": [
-              " Prehrávanie videa"
+              " Načítanie videa"
             ],
             "id": "21982994-3449-4ee0-ba6a-5cf29a1dd914",
             "source": {
@@ -645,7 +756,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": " Odoslanie metrík",
+              "name": "HTTPS požiadavka a odpoveď",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -659,16 +770,16 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              " Odoslanie metrík"
+              "HTTPS požiadavka a odpoveď"
             ],
-            "id": "6d3d4516-fc7c-4ed5-b9be-745b1fdca4be",
+            "id": "07530bc3-efe3-4fd0-a77b-dad3fefb5f89",
             "source": {
-              "cell": "81d89c21-6abe-4db5-b7da-50873f2b3716",
-              "port": "08ecdfdc-873e-4507-b02a-5a8be0b40d15"
+              "cell": "412d87fe-aae7-403c-8fe1-0966789dd8a2",
+              "port": "e9d26b9b-c663-47ad-b644-ec1bbd830ad5"
             },
             "target": {
-              "cell": "7d85f136-4e34-449b-9f21-7c904a99f900",
-              "port": "4e416b22-a51b-43bb-a7b6-eac0f6e717f6"
+              "cell": "a88d57e8-a66d-4444-b962-ed72010d491b",
+              "port": "5489ecdc-37cd-40f2-adfc-b8272bf4c26c"
             },
             "vertices": []
           },
@@ -703,19 +814,22 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "fca32547-4f78-41c9-8a6e-de2fe80bae9b",
+                "90bde1b6-242b-4498-be21-012d0ef4dca8"
+              ]
             },
             "labels": [
               "Build / Deployment"
             ],
-            "id": "c9b07116-c607-4e4a-a260-457c6f803e53",
+            "id": "994b4ab9-115c-4d98-9d5e-924dbd25e346",
             "source": {
-              "cell": "81d89c21-6abe-4db5-b7da-50873f2b3716",
-              "port": "8d61c1d6-51e1-4a56-b179-5c490c83b1a2"
-            },
-            "target": {
               "cell": "f81f6ec9-c95a-4590-a4ec-f6a974291572",
               "port": "d5beee01-adfe-4968-9d53-597449607bb8"
+            },
+            "target": {
+              "cell": "81d89c21-6abe-4db5-b7da-50873f2b3716",
+              "port": "8d61c1d6-51e1-4a56-b179-5c490c83b1a2"
             },
             "vertices": []
           },
@@ -739,7 +853,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "HTTPS požiadavky",
+              "name": "Odkaz na formulár",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -750,26 +864,134 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "fca32547-4f78-41c9-8a6e-de2fe80bae9b",
+                "e06f7cdf-bcb5-420a-abfb-3470defe7805"
+              ]
             },
             "labels": [
-              "HTTPS požiadavky"
+              "Odkaz na formulár"
             ],
-            "id": "07530bc3-efe3-4fd0-a77b-dad3fefb5f89",
+            "id": "08aafec6-216c-4c87-bde0-d858f4bcde42",
             "source": {
-              "cell": "412d87fe-aae7-403c-8fe1-0966789dd8a2",
-              "port": "e9d26b9b-c663-47ad-b644-ec1bbd830ad5"
+              "cell": "81d89c21-6abe-4db5-b7da-50873f2b3716",
+              "port": "35f06af0-6c23-4e3a-9cc7-9875e46d1044"
             },
             "target": {
-              "cell": "a88d57e8-a66d-4444-b962-ed72010d491b",
-              "port": "5489ecdc-37cd-40f2-adfc-b8272bf4c26c"
+              "cell": "8c242384-94a2-4fd1-ac4c-4f9c18242ff7",
+              "port": "75c13f81-c868-409d-87e9-bf98bc2fdc42"
             },
             "vertices": []
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Načítanie",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "fca32547-4f78-41c9-8a6e-de2fe80bae9b",
+                "e06f7cdf-bcb5-420a-abfb-3470defe7805"
+              ]
+            },
+            "labels": [
+              "Načítanie"
+            ],
+            "id": "f2c5afe6-7ce7-4db4-b741-3bc1f6fe84f0",
+            "source": {
+              "cell": "81d89c21-6abe-4db5-b7da-50873f2b3716",
+              "port": "35f06af0-6c23-4e3a-9cc7-9875e46d1044"
+            },
+            "target": {
+              "cell": "9538970d-5781-42b2-8a1d-4dde8fa4792d",
+              "port": "75c13f81-c868-409d-87e9-bf98bc2fdc42"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Odoslanie metrík",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "fca32547-4f78-41c9-8a6e-de2fe80bae9b",
+                "e06f7cdf-bcb5-420a-abfb-3470defe7805"
+              ]
+            },
+            "labels": [
+              "Odoslanie metrík"
+            ],
+            "id": "fd1231f1-64b4-42af-a7a2-f208313b6150",
+            "source": {
+              "cell": "81d89c21-6abe-4db5-b7da-50873f2b3716",
+              "port": "35f06af0-6c23-4e3a-9cc7-9875e46d1044"
+            },
+            "target": {
+              "cell": "7d85f136-4e34-449b-9f21-7c904a99f900",
+              "port": "dbdc5e05-ab87-4e88-9939-27f988b3dd0c"
+            },
+            "vertices": [
+              {
+                "x": 470,
+                "y": 510
+              }
+            ]
+          },
+          {
             "position": {
               "x": 535,
-              "y": 530
+              "y": 580
             },
             "size": {
               "width": 170,
@@ -892,8 +1114,8 @@
           },
           {
             "position": {
-              "x": 540,
-              "y": 79.99999999999962
+              "x": 535,
+              "y": 65.00000000000068
             },
             "size": {
               "width": 170,
@@ -1007,6 +1229,240 @@
               "threats": []
             },
             "children": []
+          },
+          {
+            "position": {
+              "x": 254,
+              "y": 480.00000000000017
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Mikrolekcie"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "e640096a-3fed-4e09-8d35-8590414b03d9"
+                },
+                {
+                  "group": "right",
+                  "id": "75c13f81-c868-409d-87e9-bf98bc2fdc42"
+                },
+                {
+                  "group": "bottom",
+                  "id": "a2fe0a7e-10e7-4006-bc46-5fe8da93a1a4"
+                },
+                {
+                  "group": "left",
+                  "id": "6b51dc64-2d28-4e75-b709-a93b7210aa52"
+                }
+              ]
+            },
+            "id": "9538970d-5781-42b2-8a1d-4dde8fa4792d",
+            "zIndex": 13,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Mikrolekcie",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 254,
+              "y": 310.0000000000001
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Google Form"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "e640096a-3fed-4e09-8d35-8590414b03d9"
+                },
+                {
+                  "group": "right",
+                  "id": "75c13f81-c868-409d-87e9-bf98bc2fdc42"
+                },
+                {
+                  "group": "bottom",
+                  "id": "a2fe0a7e-10e7-4006-bc46-5fe8da93a1a4"
+                },
+                {
+                  "group": "left",
+                  "id": "6b51dc64-2d28-4e75-b709-a93b7210aa52"
+                }
+              ]
+            },
+            "id": "8c242384-94a2-4fd1-ac4c-4f9c18242ff7",
+            "zIndex": 14,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Google Form",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
           }
         ],
         "description": "Diagram"
