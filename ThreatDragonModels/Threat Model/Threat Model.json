@@ -40,6 +40,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -123,7 +124,6 @@
               ]
             },
             "id": "f9b7c525-2507-441b-8c97-d6a0a1bc5cbc",
-            "zIndex": 2,
             "data": {
               "type": "tm.Actor",
               "name": "YouTube",
@@ -157,6 +157,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -240,7 +241,6 @@
               ]
             },
             "id": "7d85f136-4e34-449b-9f21-7c904a99f900",
-            "zIndex": 3,
             "data": {
               "type": "tm.Actor",
               "name": "Google Analytics",
@@ -274,6 +274,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -357,7 +358,6 @@
               ]
             },
             "id": "a88d57e8-a66d-4444-b962-ed72010d491b",
-            "zIndex": 4,
             "data": {
               "type": "tm.Process",
               "name": "Webový \nprehliadač",
@@ -397,6 +397,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -480,7 +481,6 @@
               ]
             },
             "id": "81d89c21-6abe-4db5-b7da-50873f2b3716",
-            "zIndex": 5,
             "data": {
               "type": "tm.Process",
               "name": "Aplikácia",
@@ -685,6 +685,53 @@
             "vertices": []
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "HTTPS požiadavky",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "HTTPS požiadavky"
+            ],
+            "id": "07530bc3-efe3-4fd0-a77b-dad3fefb5f89",
+            "source": {
+              "cell": "412d87fe-aae7-403c-8fe1-0966789dd8a2",
+              "port": "e9d26b9b-c663-47ad-b644-ec1bbd830ad5"
+            },
+            "target": {
+              "cell": "a88d57e8-a66d-4444-b962-ed72010d491b",
+              "port": "5489ecdc-37cd-40f2-adfc-b8272bf4c26c"
+            },
+            "vertices": []
+          },
+          {
             "position": {
               "x": 535,
               "y": 530
@@ -708,6 +755,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -791,7 +839,6 @@
               ]
             },
             "id": "f81f6ec9-c95a-4590-a4ec-f6a974291572",
-            "zIndex": 11,
             "data": {
               "type": "tm.Store",
               "name": "Git repozitár / Zdrojový kód",
@@ -810,11 +857,11 @@
           },
           {
             "position": {
-              "x": 330,
-              "y": 120
+              "x": 530,
+              "y": 80
             },
             "size": {
-              "width": 310,
+              "width": 180,
               "height": 60
             },
             "attrs": {
@@ -829,6 +876,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -912,7 +960,6 @@
               ]
             },
             "id": "412d87fe-aae7-403c-8fe1-0966789dd8a2",
-            "zIndex": 12,
             "data": {
               "type": "tm.Actor",
               "name": "Študent / Profesor",
