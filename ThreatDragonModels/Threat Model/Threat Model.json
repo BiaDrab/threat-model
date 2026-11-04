@@ -4,7 +4,7 @@
   "released_at": "",
   "summary": {
     "title": "Threat Model",
-    "owner": "",
+    "owner": "Bia",
     "description": "",
     "id": 0
   },
@@ -22,7 +22,7 @@
         "description": "Diagram"
       }
     ],
-    "diagramTop": 2,
+    "diagramTop": 3,
     "reviewer": "",
     "threatTop": 0
   }
