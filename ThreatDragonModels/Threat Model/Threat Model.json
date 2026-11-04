@@ -20,38 +20,37 @@
         "version": "2.6.2",
         "cells": [
           {
-            "shape": "trust-boundary-curve",
-            "width": 200,
-            "height": 100,
+            "position": {
+              "x": 500,
+              "y": 40
+            },
+            "size": {
+              "width": 240,
+              "height": 250
+            },
+            "attrs": {
+              "label": {
+                "text": "Trust Boundary"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "fca32547-4f78-41c9-8a6e-de2fe80bae9b",
             "zIndex": -1,
-            "connector": "smooth",
             "data": {
-              "type": "tm.Boundary",
+              "type": "tm.BoundaryBox",
               "name": "Trust Boundary",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
-              "crossingFlows": [],
-              "containedElements": []
-            },
-            "labels": [
-              "Trust Boundary"
-            ],
-            "id": "a4c86635-3dcb-4698-8bc7-f967520ccc6f",
-            "source": {
-              "x": 540,
-              "y": 110
-            },
-            "target": {
-              "cell": "a88d57e8-a66d-4444-b962-ed72010d491b",
-              "port": "35f06af0-6c23-4e3a-9cc7-9875e46d1044"
-            },
-            "vertices": [
-              {
-                "x": 460,
-                "y": 160
-              }
-            ]
+              "crossingFlows": [
+                "d9b206b0-66e6-4bd9-a039-fddce2e24e88"
+              ],
+              "containedElements": [
+                "a88d57e8-a66d-4444-b962-ed72010d491b",
+                "412d87fe-aae7-403c-8fe1-0966789dd8a2"
+              ]
+            }
           },
           {
             "position": {
@@ -561,7 +560,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "fca32547-4f78-41c9-8a6e-de2fe80bae9b"
+              ]
             },
             "labels": [
               "Načítanie stránky"
